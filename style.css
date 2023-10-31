@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-bar {
+  background-color: #fff5ed;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  transition: all 0.3s ease;
+  display: flex;
+  
+  align-items: center; /* Center vertically */
+}
+
+.nav-bar img {
+  height: 120px;
+  width: 140px;
+  margin-left: 45px;
+}
+
+
+.nav-bar ul {
+  list-style: none; 
+  display: flex; 
+  margin-left: 45px; 
+  align-items: center;
+  
+}
+
+.nav-bar li {
+  margin-right: 20px; 
+}
+
+.nav-bar a {
+  text-decoration: none; 
+  color: #333; 
+  font-family: sans-serif;
+  font-weight: bold; 
+  font-size: 15px; 
+  transition: color 0.3s;
+}
+
+.nav-bar a:hover {
+  color: #FF5733; 
+}
+
+.login {
+  margin-left: 200px;
+  display: flex;
+}
+
+.login ul {
+  list-style: none; /* Remove default list-style (bullets) */
+}
+
+.login li {
+  margin-right: 20px; /* Add some spacing between list items */
+}
+
+/* Add styles for the 'scrolled' class */
+.scrolled {
+  background-color: #ffffff; /* Change background color to white when scrolled */
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2); /* Add a shadow when scrolled */
+}
+
+.login img{
+  height: 15px;
+  width: 15px;
+  margin-left: -20px;
+  line-height: 23px;
+}
+
+.create-account button{
+  margin-left: 20px;
+ 
+  background-color:#fff5ed ;
+  border: solid black;
+  border-radius: 10px;
+  color: black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.book button{
+  margin-left:25px;
+ 
+  background-color:black;
+  border: solid black;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  
+}
+
+.book button:hover{
+  background-color: rgb(68, 68, 68);
+  color: white;
+}
+
+.hero{
+  height: 100vh;
+  width: 100%;
+  background-color: #fff5ed;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero img{
+  height: 280px;
+  width: 424px;
+
+  
+}
+
+.hero-heading {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  padding: 190px;
+  text-align: center;
+}
+
+.hero-heading h1 {
+  color: #242423;
+  
+  font-size: 64px; 
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.hero-heading2{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  padding: 120px;
+  text-align: center;
+
+}
+.hero-heading2 h2{
+  color: #242423;
+  
+  font-size: 24px; 
+  font-family: sans-serif;
+  font-weight: 200
+}
+
+
+.tick {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  padding: 80px;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  
+}
+.tick h3{
+  font-size: 18px;
+  font-family: sans-serif;
+  font-weight: 200;
+}
+
+.kl{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+
+.hero2 {
+  height: 100vh; /* Adjust the height as needed for your design */
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  background-color: #fff5ed; /* Set the background color as desired */
+}
+
+.hero2 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff5ed;
+}
+
+.hero2 h2 {
+  color: black;
+  margin-top: 0; /* Adjust as needed */
+  padding: 20px;
+  text-align: center; /* Center the text horizontally */
+}
+
+.hero2 img {
+  height: 300px;
+  width: 254px;
+  margin-top: 0; /* Adjust as needed */
+  padding: 20px;
+}
+
+
